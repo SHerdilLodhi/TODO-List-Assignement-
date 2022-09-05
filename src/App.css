@@ -1,0 +1,88 @@
+
+.div1{
+  margin: auto;
+  height: 80vh;
+  box-shadow: 15px 11px 32px -8px #2b4865;
+  width: 45vw;
+  display: flex;
+  
+  border-radius: 6px;
+
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow-wrap: break-word;
+}
+.headdiv{
+  
+  text-align: center;
+  align-items: center;
+  background-color: #002B5B;
+
+padding-top: 1px;}
+.input{
+  width: 50%;
+  border-radius: 50%;
+  
+}
+.listcontainer{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  overflow-y: auto;
+
+  flex-direction: column;
+  
+
+}
+
+.listcontainer .wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  box-shadow: 16px 6px 35px -16px #002B5B;
+}
+
+.listcontainer div {
+  margin: 0 20px;
+}
+.rightside{
+  display: flex;
+}
+.input2{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 200px;
+  align-items: center;
+
+}
+
+.select {
+
+  width:20%;
+ 
+}
+.check{
+  color: #002B5B;
+}
+
+@media screen and (max-width:922px) {
+  
+  .div1{
+    width: 80vw;
+  }
+  .input {
+   width: 40%;
+
+  }
+  .select{
+    width: 40%;
+  }
+}
+.edit{
+  margin-top: 19px;
+  color: rgb(81, 121, 252);
+  
+}
